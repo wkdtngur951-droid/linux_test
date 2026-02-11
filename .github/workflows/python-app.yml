@@ -27,7 +27,6 @@ jobs:
           
           echo "Fetching data from: $URL"
           curl -s $URL >> $FILE_NAME
-          echo "" >> $FILE_NAME # 가독성을 위해 줄바꿈 추가
 
       - name: Commit and Push
         run: |
